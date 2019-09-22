@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react"
+import Layout from "../components/layout.js"
 
 const ContactUs = () => {
   return (
-    <div>
-      <h1 className="title is-1">Contact Us</h1>
-    </div>
+    <Layout>
+      <div>
+        <h1 className="title is-1">Contact Us</h1>
+      </div>
+    </Layout>
   )
 }
 

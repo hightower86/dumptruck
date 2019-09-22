@@ -1,0 +1,36 @@
+.h-hero {
+  //height: 100px;
+  //position: absolute;
+  .hero-head {
+    //height: 100%;
+  }
+
+  .navbar {
+    height: 6rem;
+
+    .navbar-item {
+      padding-right: 50px;
+      a {
+        color: #333;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  .hero-body {
+    height: 70%;
+  }
+}
+
+.navbar-menu {
+  //display: flex;
+  //justify-content: space-between;
+
+  .active-nav-item {
+    color: rgb(115, 160, 226);
+    border-bottom: 3px solid rgb(115, 160, 226);
+  }
+}
+.navbar-menu a:hover {
+  color: rgb(115, 160, 226);
+  border-bottom: 3px solid rgb(115, 160, 226);
+}

@@ -27,18 +27,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <section className="hero is-dark">
-        <h2>Header</h2>
-      </section>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
+      <div>
         <main>{children}</main>
         <Footer />
       </div>

@@ -6272,7 +6272,7 @@ a.list-item {
 
 .navbar {
   background-color: white;
-  min-height: 3.25rem;
+  min-height: 4rem;
   position: relative;
   z-index: 30;
 }

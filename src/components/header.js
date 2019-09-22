@@ -1,34 +1,44 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "./header.scss"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <section className="hero h-hero is-light is-medium">
+    <div className="hero-head ">
+      <div className="navbar">
+        <div className="navbar-brand">
+          <div className="navbar-item image">
+            <img src="../images/logo5.png" alt="Logo" width="120" />
+          </div>
+        </div>
+        <div className="navbar-menu">
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <Link to="/" activeClassName="active-nav-item">
+                Home
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/features" activeClassName="active-nav-item">
+                Features
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/pricing" activeClassName="active-nav-item">
+                Pricing
+              </Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/contactus" activeClassName="activeClassName">
+                Contact Us
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
+  </section>
 )
 
 Header.propTypes = {
