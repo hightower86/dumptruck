@@ -36,13 +36,13 @@ const indexPage = () => {
         {/* </div> */}
       </section>
 
-      <section className="hero is-info is-fullheight">
+      <section className="hero is-light is-fullheight">
         {/* <div className="container"> */}
         <div className="container">
+          <h2 className="title">Benefits</h2>
           <div className="columns">
             <div className="column ">
-              <div className="content is-large">
-                <h2 className="title">Benefits</h2>
+              <div className="content is-medium">
                 <ul className="type-1">
                   <li>Improved dispatcher productivity</li>
                   <li>Happier dispatchers and customers</li>
@@ -57,8 +57,8 @@ const indexPage = () => {
               </div>
             </div>
 
-            <div className="column">
-              <div className="content is-large">
+            <div className="column ">
+              <div className="content is-medium">
                 <p>
                   Some of these benefits may sound too good to be true. Read
                   below to find out more about how Dump Truck Dispatcher can
