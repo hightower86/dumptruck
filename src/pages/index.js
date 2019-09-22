@@ -1,21 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
+import Layout from "../components/layout.js"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+const indexPage = () => {
+  return (
+    <Layout>
+      <div className="has-text-centered">
+        <h1 className="title is-1">
+          Dump Truck Software for More Productive Operations
+        </h1>
+        <h3 className="subtitle is-3">
+          Dump Truck Dispatcher is cloud-based software that can help organize
+          and manage your quotes, orders, tickets, schedules, dispatches, and
+          fleet vehicle maintenance.
+        </h3>
+        <Link to="/features">features</Link>
+      </div>
+    </Layout>
+  )
+}
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
-
-export default IndexPage
+export default indexPage
