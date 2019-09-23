@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 import "./index.scss"
 // import "../components/debug.css"
@@ -8,25 +7,27 @@ const indexPage = () => {
   return (
     <Layout>
       <section className="hero hero-index is-fullheight is-dark">
-        <div className="columns">
-          <div class="column"></div>
-          <div class="column is-three-fifths i-column">
-            <div className="i-container has-text-centered">
-              <h1 className="title is-1 has-text-weight-bold">
-                Dump Truck Software for More Productive Operations
-              </h1>
-              <p className="subtitle is-4">
-                Dump Truck Dispatcher is cloud-based software that can help
-                organize and manage your quotes, orders, tickets, schedules,
-                dispatches, and fleet vehicle maintenance.
-              </p>
-              <button className="button is-medium i-button">
-                REQUEST DEMO
-              </button>
+        <div className="hero-body">
+          <div className="columns">
+            <div class="column"></div>
+            <div class="column is-three-fifths i-column">
+              <div className="i-container has-text-centered">
+                <h1 className="title is-1 has-text-weight-bold">
+                  Dump Truck Software for More Productive Operations
+                </h1>
+                <p className="subtitle is-4">
+                  Dump Truck Dispatcher is cloud-based software that can help
+                  organize and manage your quotes, orders, tickets, schedules,
+                  dispatches, and fleet vehicle maintenance.
+                </p>
+                <button className="button is-medium i-button">
+                  REQUEST DEMO
+                </button>
+              </div>
             </div>
-          </div>
 
-          <div class="column"></div>
+            <div class="column"></div>
+          </div>
         </div>
         {/* </div> */}
       </section>
