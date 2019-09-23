@@ -6,7 +6,7 @@ import "./index.scss"
 const indexPage = () => {
   return (
     <Layout>
-      <section className="hero hero-index is-fullheight is-dark">
+      <section className="hero hero-index  is-fullheight-with-navbar is-dark">
         <div className="hero-body">
           <div className="columns">
             <div class="column"></div>
@@ -15,10 +15,10 @@ const indexPage = () => {
                 <h1 className="title is-1 has-text-weight-bold">
                   Dump Truck Software for More Productive Operations
                 </h1>
-                <p className="subtitle is-4">
+                <p className="subtitle is-6">
                   Dump Truck Dispatcher is cloud-based software that can help
-                  organize and manage your quotes, orders, tickets, schedules,
-                  dispatches, and fleet vehicle maintenance.
+                  organize and <br /> manage your quotes, orders, tickets,
+                  schedules, dispatches, <br /> and fleet vehicle maintenance.
                 </p>
                 <button className="button is-medium i-button">
                   REQUEST DEMO

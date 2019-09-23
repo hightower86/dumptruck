@@ -6,7 +6,7 @@ import "./features.scss"
 const Features = () => {
   return (
     <Layout>
-      <section className="hero f-hero is-fullheight is-dark">
+      <section className="hero f-hero is-fullheight-with-navbar is-dark">
         <div className="hero-body">
           <div className="columns">
             <div class="column"></div>
