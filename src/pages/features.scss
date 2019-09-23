@@ -1,0 +1,23 @@
+.f-hero {
+  //min-height: 75vh; //calc(100vh - 6rem);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/page-2-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 610px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  .title {
+    margin-bottom: 60px;
+  }
+  .i-button {
+    margin-top: 40px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    &:hover {
+      background-color: rgb(43, 233, 169);
+    }
+  }
+}
