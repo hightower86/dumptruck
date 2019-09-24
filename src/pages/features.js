@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout.js"
 import "./features.scss"
+import projects from "../images/projects-2-1024x768.jpg"
 
 const Features = () => {
   return (
@@ -67,11 +68,7 @@ const Features = () => {
               </div>
               <div className="column">
                 <figure>
-                  <img
-                    src="../images/projects-2-1024x768.jpg"
-                    alt="projects"
-                    width="300"
-                  />
+                  <img src={projects} alt="projects" width="100%" />
                 </figure>
               </div>
             </div>
