@@ -17,7 +17,9 @@ const Header = ({ siteTitle }) => {
         <div className="navbar">
           <div className="navbar-brand">
             <div className="navbar-item">
-              <img src={logo} alt="Logo" width="131" height="" />
+              <Link to="/">
+                <img src={logo} alt="Logo" width="131" height="" />
+              </Link>
             </div>
 
             <a
