@@ -4,8 +4,10 @@ import Layout from "../components/layout.js"
 const ContactUs = () => {
   return (
     <Layout>
-      <div>
-        <h1 className="title is-1">Contact Us</h1>
+      <div className="hero is-fullheight is-dark">
+        <div className="hero-body">
+          <h1 className="title is-1">Contact US</h1>
+        </div>
       </div>
     </Layout>
   )
