@@ -9,8 +9,8 @@ const indexPage = () => {
       <section className="hero hero-index  is-fullheight-with-navbar is-dark">
         <div className="hero-body">
           <div className="columns">
-            <div class="column"></div>
-            <div class="column is-three-fifths i-column">
+            <div className="column"></div>
+            <div className="column is-three-fifths i-column">
               <div className="i-container has-text-centered">
                 <h1 className="title is-1 has-text-weight-bold">
                   Dump Truck Software for More Productive Operations
@@ -26,7 +26,7 @@ const indexPage = () => {
               </div>
             </div>
 
-            <div class="column"></div>
+            <div className="column"></div>
           </div>
         </div>
         {/* </div> */}
@@ -41,7 +41,7 @@ const indexPage = () => {
                 <div className="content is-medium">
                   <ul className="type-1">
                     <li>
-                      <i class="fa fa-check" aria-hidden="true"></i>Improved
+                      <i className="fa fa-check" aria-hidden="true"></i>Improved
                       dispatcher productivity
                     </li>
                     <li>Happier dispatchers and customers</li>

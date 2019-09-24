@@ -10,8 +10,8 @@ const Features = () => {
       <section className="hero f-hero is-fullheight-with-navbar is-dark">
         <div className="hero-body">
           <div className="columns">
-            <div class="column"></div>
-            <div class="column is-three-fifths i-column">
+            <div className="column"></div>
+            <div className="column is-three-fifths i-column">
               <div className="i-container has-text-centered">
                 <h1 className="title is-1 has-text-weight-bold">
                   Commercial dump truck dispatch software saves you time and
@@ -24,7 +24,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div class="column"></div>
+            <div className="column"></div>
           </div>
         </div>
       </section>
