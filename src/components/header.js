@@ -27,7 +27,6 @@ const Header = ({ siteTitle }) => {
               className="navbar-burger"
               aria-label="menu"
               aria-expanded="false"
-              data-target="navMenu"
               onClick={onBurgerClick}
             >
               <span aria-hidden="true"></span>

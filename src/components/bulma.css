@@ -6960,16 +6960,16 @@ body.has-navbar-fixed-bottom {
   color: #4a4a4a;
   cursor: pointer;
   display: block;
-  height: 3.25rem;
+  height: 6rem;
   position: relative;
-  width: 3.25rem;
+  width: 6rem;
   margin-left: auto;
 }
 
 .navbar-burger span {
   background-color: currentColor;
   display: block;
-  height: 1px;
+  height: 2px;
   left: calc(50% - 8px);
   position: absolute;
   -webkit-transform-origin: center;
@@ -6979,11 +6979,11 @@ body.has-navbar-fixed-bottom {
   transition-property: background-color, opacity, transform;
   transition-property: background-color, opacity, transform, -webkit-transform;
   transition-timing-function: ease-out;
-  width: 16px;
+  width: 30px;
 }
 
 .navbar-burger span:nth-child(1) {
-  top: calc(50% - 6px);
+  top: calc(50% - 8px);
 }
 
 .navbar-burger span:nth-child(2) {
@@ -6991,7 +6991,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger span:nth-child(3) {
-  top: calc(50% + 4px);
+  top: calc(50% + 7px);
 }
 
 .navbar-burger:hover {
@@ -6999,8 +6999,8 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger.is-active span:nth-child(1) {
-  -webkit-transform: translateY(5px) rotate(45deg);
-          transform: translateY(5px) rotate(45deg);
+  -webkit-transform: translateY(9px) rotate(45deg);
+          transform: translateY(9px) rotate(45deg);
 }
 
 .navbar-burger.is-active span:nth-child(2) {
