@@ -37,7 +37,7 @@ const indexPage = () => {
           <div className="container">
             <h2 className="title">Benefits</h2>
             <div className="columns">
-              <div className="column ">
+              <div className="column">
                 <div className="content is-medium">
                   <ul className="type-1">
                     <li>
